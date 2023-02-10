@@ -1,3 +1,6 @@
 fastapienv/*
 **/__pycache__/*
 **/*.db
+**/venv/*
+.DS_Store
+.ipynb_checkpoints/*
