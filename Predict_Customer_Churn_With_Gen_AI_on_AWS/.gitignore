@@ -1,0 +1,25 @@
+.DS_Store
+.env
+.venv
+
+# Local Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Backup files created by Terraform
+*.backup
+
+# Variable overrides file (user-specific)
+*.tfvars
+
+# Terraform crash log files
+crash.log
+
+# Terraform provider binaries
+.terraform/
+
+# Lock file (optional, see below for discussion)
+.terraform.lock.hcl
+
+# Sensitive environment variables
+.env
