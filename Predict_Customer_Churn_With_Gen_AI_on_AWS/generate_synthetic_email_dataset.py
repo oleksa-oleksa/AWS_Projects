@@ -2,48 +2,56 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-# Generate synthetic email data for 3 clients (4-7 emails per client)
+# Define clients
 clients = ["client_001", "client_002", "client_003"]
-categories = ["Signed Contract", "Reported Issue", "Asking for Help", "General Inquiry"]
-subjects = {
-    "Signed Contract": "Contract Signed - Welcome to Our Service",
-    "Reported Issue": "Urgent: Issue with Banking Transactions",
-    "Asking for Help": "Need Assistance with Account Access",
-    "General Inquiry": "Question about Service Fees"
-}
-email_templates = {
-    "Signed Contract": "Dear Team, we are pleased to confirm that we have signed the contract.",
-    "Reported Issue": "We are experiencing issues with our banking transactions. Please resolve ASAP.",
-    "Asking for Help": "Can you help us regain access to our account? We are unable to log in.",
-    "General Inquiry": "Can you provide details about the latest service fees?"
+
+# Bank-specific email categories and templates
+bank_email_categories = {
+    "Service Outage Notification": "We are currently experiencing an outage affecting online transactions.",
+    "Security Incident Report": "We detected suspicious activity on our accounts. Please investigate.",
+    "API Downtime Inquiry": "Can you provide an update on the recent API downtime?",
+    "Regulatory Compliance Request": "We need confirmation that your service meets regulatory compliance.",
+    "Service Upgrade Confirmation": "We have successfully upgraded to the new service tier.",
+    "Billing Dispute": "There is a discrepancy in our latest invoice. Please review and clarify."
 }
 
-data = []
-email_id_counter = 1
+# Function to generate unique emails per client
+def generate_unique_emails(client_id, start_email_id, start_date, num_emails=5):
+    emails = []
+    used_categories = set()
+    for _ in range(num_emails):
+        available_categories = list(set(bank_email_categories.keys()) - used_categories)
+        if not available_categories:
+            used_categories.clear()
+            available_categories = list(bank_email_categories.keys())
+
+        category = random.choice(available_categories)
+        used_categories.add(category)
+        
+        timestamp = start_date + timedelta(days=random.randint(1, 30), hours=random.randint(8, 20))
+
+        emails.append([
+            client_id,
+            f"email_{start_email_id}",
+            timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            category,
+            bank_email_categories[category]
+        ])
+        start_email_id += 1
+    return emails, start_email_id
+
+# Generate dataset
 start_date = datetime(2024, 1, 1)
+email_id_counter = 1
+data = []
 
 for client in clients:
-    num_emails = random.randint(4, 7)
-    for _ in range(num_emails):
-        category = random.choice(categories)
-        timestamp = start_date + timedelta(days=random.randint(1, 30), hours=random.randint(8, 20))
-        sentiment_score = round(random.uniform(-1, 1), 2)  # -1 (negative) to 1 (positive)
-
-        data.append([
-            client,
-            f"email_{email_id_counter}",
-            timestamp.strftime("%Y-%m-%d %H:%M:%S"),
-            subjects[category],
-            email_templates[category],
-            category,
-            sentiment_score
-        ])
-        email_id_counter += 1
+    client_emails, email_id_counter = generate_unique_emails(client, email_id_counter, start_date, num_emails=7)
+    data.extend(client_emails)
 
 # Create DataFrame
-df = pd.DataFrame(data, columns=["client_id", "email_id", "timestamp", "subject", "email_body", "category", "sentiment_score"])
+df = pd.DataFrame(data, columns=["client_id", "email_id", "timestamp", "subject", "email_body"])
 
 # Save as CSV
-csv_filename = "/mnt/data/synthetic_email_data.csv"
-df.to_csv(csv_filename, index=False)
-csv_filename
+df.to_csv("synthetic_email_data.csv", index=False)
+print("Dataset saved as synthetic_email_data.csv")
