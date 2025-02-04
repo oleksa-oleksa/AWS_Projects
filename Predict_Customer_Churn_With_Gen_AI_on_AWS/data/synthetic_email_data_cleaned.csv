@@ -1,0 +1,34 @@
+client_id,email_id,timestamp,subject,email_body
+client_001,email_1,2024-01-24 14:00:00,Urgent: Issue with Banking Transactions,We are experiencing issues with our banking transactions. Please resolve ASAP.
+client_001,email_2,2024-01-14 19:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_001,email_3,2024-01-05 19:00:00,Need Assistance with Account Access,Can you help us regain access to our account? We are unable to log in.
+client_001,email_4,2024-01-17 17:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_001,email_5,2024-01-04 13:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_001,email_6,2024-01-20 10:00:00,Urgent: Issue with Banking Transactions,We are experiencing issues with our banking transactions. Please resolve ASAP.
+client_001,email_7,2024-01-27 16:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_002,email_8,2024-01-13 12:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_002,email_9,2024-01-09 20:00:00,Need Assistance with Account Access,Can you help us regain access to our account? We are unable to log in.
+client_002,email_10,2024-01-12 12:00:00,Question about Service Fees,Can you provide details about the latest service fees?
+client_002,email_11,2024-01-06 17:00:00,Need Assistance with Account Access,Can you help us regain access to our account? We are unable to log in.
+client_002,email_12,2024-01-30 19:00:00,Urgent: Issue with Banking Transactions,We are experiencing issues with our banking transactions. Please resolve ASAP.
+client_002,email_13,2024-01-10 11:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_002,email_14,2024-01-24 20:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_003,email_15,2024-01-11 08:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_003,email_16,2024-01-26 08:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_003,email_17,2024-01-11 11:00:00,Urgent: Issue with Banking Transactions,We are experiencing issues with our banking transactions. Please resolve ASAP.
+client_003,email_18,2024-01-24 09:00:00,Contract Signed - Welcome to Our Service,"Dear Team, we are pleased to confirm that we have signed the contract."
+client_001,email_19,2024-01-16 19:00:00,Service Upgrade Confirmation,We have successfully upgraded to the new service tier.
+client_001,email_20,2024-01-22 17:00:00,Regulatory Compliance Request,We need confirmation that your service meets regulatory compliance.
+client_001,email_21,2024-01-22 20:00:00,Billing Dispute,There is a discrepancy in our latest invoice. Please review and clarify.
+client_001,email_22,2024-01-28 10:00:00,Security Incident Report,We detected suspicious activity on our accounts. Please investigate.
+client_001,email_23,2024-01-16 13:00:00,Service Outage Notification,We are currently experiencing an outage affecting online transactions.
+client_002,email_24,2024-01-18 16:00:00,Service Upgrade Confirmation,We have successfully upgraded to the new service tier.
+client_002,email_25,2024-01-23 08:00:00,Service Outage Notification,We are currently experiencing an outage affecting online transactions.
+client_002,email_26,2024-01-30 12:00:00,Security Incident Report,We detected suspicious activity on our accounts. Please investigate.
+client_002,email_27,2024-01-26 12:00:00,API Downtime Inquiry,Can you provide an update on the recent API downtime?
+client_002,email_28,2024-01-03 08:00:00,Billing Dispute,There is a discrepancy in our latest invoice. Please review and clarify.
+client_003,email_29,2024-01-03 16:00:00,Service Upgrade Confirmation,We have successfully upgraded to the new service tier.
+client_003,email_30,2024-01-15 17:00:00,API Downtime Inquiry,Can you provide an update on the recent API downtime?
+client_003,email_31,2024-01-23 15:00:00,Service Outage Notification,We are currently experiencing an outage affecting online transactions.
+client_003,email_32,2024-01-18 18:00:00,Security Incident Report,We detected suspicious activity on our accounts. Please investigate.
+client_003,email_33,2024-01-09 20:00:00,Regulatory Compliance Request,We need confirmation that your service meets regulatory compliance.
