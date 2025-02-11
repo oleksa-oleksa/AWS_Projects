@@ -1,0 +1,2283 @@
+[
+    {
+        "ClientInformation": {
+            "Client_ID": "C100000",
+            "Client_Name": "Company A",
+            "Industry": "Energy",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2020-09-10T00:00:00Z",
+            "Last_Modified": "2022-06-30T00:00:00Z",
+            "Annual_Revenue": 108724199,
+            "Number_of_Employees": 4891,
+            "Address": {
+                "Street": "248 Technology Drive",
+                "City": "New York",
+                "State": "TX",
+                "Postal_Code": "40379",
+                "Country": "Australia"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2000",
+                "Name": "Energy Expansion Project 1",
+                "Stage": "Negotiation",
+                "Amount": 175153,
+                "Close_Date": "2024-12-12T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2001",
+                "Name": "Energy Expansion Project 2",
+                "Stage": "Negotiation",
+                "Amount": 323170,
+                "Close_Date": "2024-09-14T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2002",
+                "Name": "Energy Expansion Project 3",
+                "Stage": "Closed Won",
+                "Amount": 343689,
+                "Close_Date": "2025-10-27T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2003",
+                "Name": "Energy Expansion Project 4",
+                "Stage": "Closed Lost",
+                "Amount": 218917,
+                "Close_Date": "2025-08-15T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2004",
+                "Name": "Energy Expansion Project 5",
+                "Stage": "Negotiation",
+                "Amount": 499738,
+                "Close_Date": "2025-11-19T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3000",
+                "Subject": "Issue 1: Feature Request",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-07-26T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3001",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2025-05-19T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3002",
+                "Subject": "Issue 3: Bug Report",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2024-10-16T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3003",
+                "Subject": "Issue 4: Service Outage",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2025-11-29T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4000",
+                "Type": "Email",
+                "Date": "2024-07-21T00:00:00Z",
+                "From": "account.manager@companya.com",
+                "To": "support@companya.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4001",
+                "Type": "Email",
+                "Date": "2024-07-13T00:00:00Z",
+                "From": "account.manager@companya.com",
+                "To": "support@companya.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4002",
+                "Type": "Meeting",
+                "Date": "2025-02-20T00:00:00Z",
+                "From": "account.manager@companya.com",
+                "To": "support@companya.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4003",
+                "Type": "Call",
+                "Date": "2024-11-29T00:00:00Z",
+                "From": "account.manager@companya.com",
+                "To": "support@companya.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4004",
+                "Type": "Call",
+                "Date": "2025-07-09T00:00:00Z",
+                "From": "account.manager@companya.com",
+                "To": "support@companya.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100001",
+            "Client_Name": "Company B",
+            "Industry": "Finance",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2023-05-27T00:00:00Z",
+            "Last_Modified": "2024-02-12T00:00:00Z",
+            "Annual_Revenue": 180266821,
+            "Number_of_Employees": 1517,
+            "Address": {
+                "Street": "247 Commerce Drive",
+                "City": "Houston",
+                "State": "NY",
+                "Postal_Code": "81388",
+                "Country": "Canada"
+            },
+            "Status": "Pending"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2005",
+                "Name": "Finance Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 248169,
+                "Close_Date": "2025-01-27T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2006",
+                "Name": "Finance Expansion Project 2",
+                "Stage": "Closed Won",
+                "Amount": 226731,
+                "Close_Date": "2025-10-15T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2007",
+                "Name": "Finance Expansion Project 3",
+                "Stage": "Proposal Sent",
+                "Amount": 235215,
+                "Close_Date": "2024-09-01T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2008",
+                "Name": "Finance Expansion Project 4",
+                "Stage": "Closed Won",
+                "Amount": 116578,
+                "Close_Date": "2024-07-16T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3005",
+                "Subject": "Issue 1: Service Outage",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2025-02-18T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3006",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Open",
+                "Priority": "High",
+                "Created_Date": "2025-05-28T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3007",
+                "Subject": "Issue 3: Bug Report",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2024-11-11T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4005",
+                "Type": "Call",
+                "Date": "2025-10-17T00:00:00Z",
+                "From": "account.manager@companyb.com",
+                "To": "support@companyb.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4006",
+                "Type": "Email",
+                "Date": "2025-09-16T00:00:00Z",
+                "From": "account.manager@companyb.com",
+                "To": "support@companyb.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4007",
+                "Type": "Email",
+                "Date": "2025-07-31T00:00:00Z",
+                "From": "account.manager@companyb.com",
+                "To": "support@companyb.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4008",
+                "Type": "Call",
+                "Date": "2025-03-11T00:00:00Z",
+                "From": "account.manager@companyb.com",
+                "To": "support@companyb.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4009",
+                "Type": "Meeting",
+                "Date": "2025-11-21T00:00:00Z",
+                "From": "account.manager@companyb.com",
+                "To": "support@companyb.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4010",
+                "Type": "Email",
+                "Date": "2025-03-22T00:00:00Z",
+                "From": "account.manager@companyb.com",
+                "To": "support@companyb.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100002",
+            "Client_Name": "Company C",
+            "Industry": "Retail",
+            "Account_Manager": "Michael Brown",
+            "Created_Date": "2021-10-03T00:00:00Z",
+            "Last_Modified": "2021-10-03T00:00:00Z",
+            "Annual_Revenue": 172401116,
+            "Number_of_Employees": 1323,
+            "Address": {
+                "Street": "813 Innovation Drive",
+                "City": "Miami",
+                "State": "WA",
+                "Postal_Code": "71428",
+                "Country": "Australia"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2010",
+                "Name": "Retail Expansion Project 1",
+                "Stage": "Negotiation",
+                "Amount": 78305,
+                "Close_Date": "2024-07-28T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2011",
+                "Name": "Retail Expansion Project 2",
+                "Stage": "Negotiation",
+                "Amount": 145744,
+                "Close_Date": "2024-09-25T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2012",
+                "Name": "Retail Expansion Project 3",
+                "Stage": "Proposal Sent",
+                "Amount": 450319,
+                "Close_Date": "2025-08-17T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2013",
+                "Name": "Retail Expansion Project 4",
+                "Stage": "Negotiation",
+                "Amount": 255539,
+                "Close_Date": "2025-03-26T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3010",
+                "Subject": "Issue 1: Bug Report",
+                "Status": "In Progress",
+                "Priority": "Medium",
+                "Created_Date": "2025-12-25T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4010",
+                "Type": "Email",
+                "Date": "2024-08-23T00:00:00Z",
+                "From": "account.manager@companyc.com",
+                "To": "support@companyc.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4011",
+                "Type": "Call",
+                "Date": "2025-01-10T00:00:00Z",
+                "From": "account.manager@companyc.com",
+                "To": "support@companyc.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4012",
+                "Type": "Meeting",
+                "Date": "2025-12-03T00:00:00Z",
+                "From": "account.manager@companyc.com",
+                "To": "support@companyc.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4013",
+                "Type": "Call",
+                "Date": "2024-10-31T00:00:00Z",
+                "From": "account.manager@companyc.com",
+                "To": "support@companyc.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100003",
+            "Client_Name": "Company D",
+            "Industry": "Technology",
+            "Account_Manager": "Michael Brown",
+            "Created_Date": "2021-10-21T00:00:00Z",
+            "Last_Modified": "2022-11-18T00:00:00Z",
+            "Annual_Revenue": 74798870,
+            "Number_of_Employees": 4854,
+            "Address": {
+                "Street": "291 Business Drive",
+                "City": "Miami",
+                "State": "NY",
+                "Postal_Code": "31858",
+                "Country": "UK"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2015",
+                "Name": "Technology Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 492209,
+                "Close_Date": "2025-02-21T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2016",
+                "Name": "Technology Expansion Project 2",
+                "Stage": "Closed Won",
+                "Amount": 373511,
+                "Close_Date": "2024-10-26T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2017",
+                "Name": "Technology Expansion Project 3",
+                "Stage": "Proposal Sent",
+                "Amount": 345213,
+                "Close_Date": "2025-04-08T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2018",
+                "Name": "Technology Expansion Project 4",
+                "Stage": "Closed Won",
+                "Amount": 406914,
+                "Close_Date": "2024-08-07T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2019",
+                "Name": "Technology Expansion Project 5",
+                "Stage": "Closed Lost",
+                "Amount": 140925,
+                "Close_Date": "2024-09-07T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3015",
+                "Subject": "Issue 1: Feature Request",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-05-01T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3016",
+                "Subject": "Issue 2: Bug Report",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2025-06-07T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4015",
+                "Type": "Meeting",
+                "Date": "2025-07-11T00:00:00Z",
+                "From": "account.manager@companyd.com",
+                "To": "support@companyd.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4016",
+                "Type": "Email",
+                "Date": "2025-08-30T00:00:00Z",
+                "From": "account.manager@companyd.com",
+                "To": "support@companyd.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100004",
+            "Client_Name": "Company E",
+            "Industry": "Technology",
+            "Account_Manager": "Jane Smith",
+            "Created_Date": "2020-11-26T00:00:00Z",
+            "Last_Modified": "2024-10-21T00:00:00Z",
+            "Annual_Revenue": 24551181,
+            "Number_of_Employees": 4179,
+            "Address": {
+                "Street": "939 Innovation Drive",
+                "City": "Chicago",
+                "State": "IL",
+                "Postal_Code": "72004",
+                "Country": "Australia"
+            },
+            "Status": "Pending"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2020",
+                "Name": "Technology Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 185551,
+                "Close_Date": "2025-12-08T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2021",
+                "Name": "Technology Expansion Project 2",
+                "Stage": "Closed Lost",
+                "Amount": 302580,
+                "Close_Date": "2024-06-04T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3020",
+                "Subject": "Issue 1: Service Outage",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2024-12-12T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3021",
+                "Subject": "Issue 2: Billing Error",
+                "Status": "Open",
+                "Priority": "High",
+                "Created_Date": "2025-11-01T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3022",
+                "Subject": "Issue 3: Bug Report",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2024-12-27T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3023",
+                "Subject": "Issue 4: Feature Request",
+                "Status": "In Progress",
+                "Priority": "Medium",
+                "Created_Date": "2025-04-25T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3024",
+                "Subject": "Issue 5: Service Outage",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2024-09-28T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4020",
+                "Type": "Call",
+                "Date": "2025-06-09T00:00:00Z",
+                "From": "account.manager@companye.com",
+                "To": "support@companye.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4021",
+                "Type": "Call",
+                "Date": "2024-09-07T00:00:00Z",
+                "From": "account.manager@companye.com",
+                "To": "support@companye.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4022",
+                "Type": "Email",
+                "Date": "2025-07-27T00:00:00Z",
+                "From": "account.manager@companye.com",
+                "To": "support@companye.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4023",
+                "Type": "Email",
+                "Date": "2025-06-17T00:00:00Z",
+                "From": "account.manager@companye.com",
+                "To": "support@companye.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100005",
+            "Client_Name": "Company F",
+            "Industry": "Education",
+            "Account_Manager": "Michael Brown",
+            "Created_Date": "2022-10-07T00:00:00Z",
+            "Last_Modified": "2024-01-15T00:00:00Z",
+            "Annual_Revenue": 27195638,
+            "Number_of_Employees": 1965,
+            "Address": {
+                "Street": "287 Commerce Drive",
+                "City": "San Francisco",
+                "State": "FL",
+                "Postal_Code": "96513",
+                "Country": "Australia"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2025",
+                "Name": "Education Expansion Project 1",
+                "Stage": "Closed Lost",
+                "Amount": 419229,
+                "Close_Date": "2024-07-18T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2026",
+                "Name": "Education Expansion Project 2",
+                "Stage": "Closed Lost",
+                "Amount": 397008,
+                "Close_Date": "2024-11-21T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3025",
+                "Subject": "Issue 1: Billing Error",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2025-01-31T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3026",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Closed",
+                "Priority": "High",
+                "Created_Date": "2025-04-05T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4025",
+                "Type": "Email",
+                "Date": "2025-06-12T00:00:00Z",
+                "From": "account.manager@companyf.com",
+                "To": "support@companyf.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4026",
+                "Type": "Email",
+                "Date": "2024-10-14T00:00:00Z",
+                "From": "account.manager@companyf.com",
+                "To": "support@companyf.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4027",
+                "Type": "Meeting",
+                "Date": "2024-11-25T00:00:00Z",
+                "From": "account.manager@companyf.com",
+                "To": "support@companyf.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100006",
+            "Client_Name": "Company G",
+            "Industry": "Manufacturing",
+            "Account_Manager": "Michael Brown",
+            "Created_Date": "2021-10-06T00:00:00Z",
+            "Last_Modified": "2024-03-13T00:00:00Z",
+            "Annual_Revenue": 64360206,
+            "Number_of_Employees": 220,
+            "Address": {
+                "Street": "127 Commerce Drive",
+                "City": "Houston",
+                "State": "MA",
+                "Postal_Code": "24375",
+                "Country": "Canada"
+            },
+            "Status": "Pending"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2030",
+                "Name": "Manufacturing Expansion Project 1",
+                "Stage": "Negotiation",
+                "Amount": 234599,
+                "Close_Date": "2024-10-28T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2031",
+                "Name": "Manufacturing Expansion Project 2",
+                "Stage": "Closed Won",
+                "Amount": 419548,
+                "Close_Date": "2025-04-02T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2032",
+                "Name": "Manufacturing Expansion Project 3",
+                "Stage": "Negotiation",
+                "Amount": 252033,
+                "Close_Date": "2025-03-11T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2033",
+                "Name": "Manufacturing Expansion Project 4",
+                "Stage": "Negotiation",
+                "Amount": 237904,
+                "Close_Date": "2025-01-19T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2034",
+                "Name": "Manufacturing Expansion Project 5",
+                "Stage": "Negotiation",
+                "Amount": 208346,
+                "Close_Date": "2024-09-10T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3030",
+                "Subject": "Issue 1: Feature Request",
+                "Status": "Open",
+                "Priority": "High",
+                "Created_Date": "2025-11-06T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3031",
+                "Subject": "Issue 2: Bug Report",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2025-01-08T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3032",
+                "Subject": "Issue 3: Bug Report",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2024-11-04T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4030",
+                "Type": "Meeting",
+                "Date": "2025-04-07T00:00:00Z",
+                "From": "account.manager@companyg.com",
+                "To": "support@companyg.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4031",
+                "Type": "Call",
+                "Date": "2024-12-14T00:00:00Z",
+                "From": "account.manager@companyg.com",
+                "To": "support@companyg.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4032",
+                "Type": "Call",
+                "Date": "2025-04-26T00:00:00Z",
+                "From": "account.manager@companyg.com",
+                "To": "support@companyg.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4033",
+                "Type": "Meeting",
+                "Date": "2024-12-25T00:00:00Z",
+                "From": "account.manager@companyg.com",
+                "To": "support@companyg.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100007",
+            "Client_Name": "Company H",
+            "Industry": "Transportation",
+            "Account_Manager": "Emily Johnson",
+            "Created_Date": "2020-12-17T00:00:00Z",
+            "Last_Modified": "2023-01-22T00:00:00Z",
+            "Annual_Revenue": 143694472,
+            "Number_of_Employees": 3963,
+            "Address": {
+                "Street": "506 Business Drive",
+                "City": "Chicago",
+                "State": "IL",
+                "Postal_Code": "45202",
+                "Country": "USA"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2035",
+                "Name": "Transportation Expansion Project 1",
+                "Stage": "Negotiation",
+                "Amount": 477302,
+                "Close_Date": "2024-08-28T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2036",
+                "Name": "Transportation Expansion Project 2",
+                "Stage": "Closed Lost",
+                "Amount": 299892,
+                "Close_Date": "2025-12-29T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2037",
+                "Name": "Transportation Expansion Project 3",
+                "Stage": "Closed Won",
+                "Amount": 464593,
+                "Close_Date": "2025-08-30T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2038",
+                "Name": "Transportation Expansion Project 4",
+                "Stage": "Closed Lost",
+                "Amount": 210677,
+                "Close_Date": "2024-11-30T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3035",
+                "Subject": "Issue 1: Service Outage",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2025-06-01T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3036",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2025-06-14T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3037",
+                "Subject": "Issue 3: Service Outage",
+                "Status": "Closed",
+                "Priority": "High",
+                "Created_Date": "2024-08-09T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3038",
+                "Subject": "Issue 4: Billing Error",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-07-09T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4035",
+                "Type": "Call",
+                "Date": "2024-06-01T00:00:00Z",
+                "From": "account.manager@companyh.com",
+                "To": "support@companyh.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4036",
+                "Type": "Email",
+                "Date": "2024-06-06T00:00:00Z",
+                "From": "account.manager@companyh.com",
+                "To": "support@companyh.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4037",
+                "Type": "Email",
+                "Date": "2025-03-22T00:00:00Z",
+                "From": "account.manager@companyh.com",
+                "To": "support@companyh.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4038",
+                "Type": "Email",
+                "Date": "2025-07-17T00:00:00Z",
+                "From": "account.manager@companyh.com",
+                "To": "support@companyh.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4039",
+                "Type": "Call",
+                "Date": "2024-09-18T00:00:00Z",
+                "From": "account.manager@companyh.com",
+                "To": "support@companyh.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4040",
+                "Type": "Meeting",
+                "Date": "2024-11-03T00:00:00Z",
+                "From": "account.manager@companyh.com",
+                "To": "support@companyh.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100008",
+            "Client_Name": "Company I",
+            "Industry": "Education",
+            "Account_Manager": "Emily Johnson",
+            "Created_Date": "2021-12-24T00:00:00Z",
+            "Last_Modified": "2024-10-28T00:00:00Z",
+            "Annual_Revenue": 33876780,
+            "Number_of_Employees": 1486,
+            "Address": {
+                "Street": "653 Business Drive",
+                "City": "Boston",
+                "State": "FL",
+                "Postal_Code": "66930",
+                "Country": "USA"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2040",
+                "Name": "Education Expansion Project 1",
+                "Stage": "Proposal Sent",
+                "Amount": 99908,
+                "Close_Date": "2024-09-16T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3040",
+                "Subject": "Issue 1: Service Outage",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2024-12-10T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3041",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2024-12-29T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3042",
+                "Subject": "Issue 3: Bug Report",
+                "Status": "In Progress",
+                "Priority": "Medium",
+                "Created_Date": "2024-07-29T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3043",
+                "Subject": "Issue 4: Bug Report",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2025-11-21T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3044",
+                "Subject": "Issue 5: Feature Request",
+                "Status": "Closed",
+                "Priority": "High",
+                "Created_Date": "2025-05-09T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4040",
+                "Type": "Call",
+                "Date": "2025-07-17T00:00:00Z",
+                "From": "account.manager@companyi.com",
+                "To": "support@companyi.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4041",
+                "Type": "Meeting",
+                "Date": "2025-05-25T00:00:00Z",
+                "From": "account.manager@companyi.com",
+                "To": "support@companyi.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4042",
+                "Type": "Email",
+                "Date": "2025-04-09T00:00:00Z",
+                "From": "account.manager@companyi.com",
+                "To": "support@companyi.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4043",
+                "Type": "Meeting",
+                "Date": "2025-03-27T00:00:00Z",
+                "From": "account.manager@companyi.com",
+                "To": "support@companyi.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4044",
+                "Type": "Email",
+                "Date": "2024-08-04T00:00:00Z",
+                "From": "account.manager@companyi.com",
+                "To": "support@companyi.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4045",
+                "Type": "Call",
+                "Date": "2025-03-14T00:00:00Z",
+                "From": "account.manager@companyi.com",
+                "To": "support@companyi.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100009",
+            "Client_Name": "Company J",
+            "Industry": "Healthcare",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2023-09-08T00:00:00Z",
+            "Last_Modified": "2023-10-06T00:00:00Z",
+            "Annual_Revenue": 35505368,
+            "Number_of_Employees": 2385,
+            "Address": {
+                "Street": "205 Innovation Drive",
+                "City": "Los Angeles",
+                "State": "NY",
+                "Postal_Code": "57750",
+                "Country": "UK"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2045",
+                "Name": "Healthcare Expansion Project 1",
+                "Stage": "Proposal Sent",
+                "Amount": 416299,
+                "Close_Date": "2024-08-23T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2046",
+                "Name": "Healthcare Expansion Project 2",
+                "Stage": "Negotiation",
+                "Amount": 250564,
+                "Close_Date": "2025-01-02T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3045",
+                "Subject": "Issue 1: Billing Error",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-04-15T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4045",
+                "Type": "Meeting",
+                "Date": "2025-03-28T00:00:00Z",
+                "From": "account.manager@companyj.com",
+                "To": "support@companyj.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4046",
+                "Type": "Call",
+                "Date": "2025-01-02T00:00:00Z",
+                "From": "account.manager@companyj.com",
+                "To": "support@companyj.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4047",
+                "Type": "Meeting",
+                "Date": "2024-06-08T00:00:00Z",
+                "From": "account.manager@companyj.com",
+                "To": "support@companyj.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4048",
+                "Type": "Email",
+                "Date": "2024-12-22T00:00:00Z",
+                "From": "account.manager@companyj.com",
+                "To": "support@companyj.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4049",
+                "Type": "Meeting",
+                "Date": "2025-01-05T00:00:00Z",
+                "From": "account.manager@companyj.com",
+                "To": "support@companyj.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4050",
+                "Type": "Meeting",
+                "Date": "2024-08-24T00:00:00Z",
+                "From": "account.manager@companyj.com",
+                "To": "support@companyj.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100010",
+            "Client_Name": "Company K",
+            "Industry": "Healthcare",
+            "Account_Manager": "Emily Johnson",
+            "Created_Date": "2023-02-02T00:00:00Z",
+            "Last_Modified": "2023-03-31T00:00:00Z",
+            "Annual_Revenue": 134570511,
+            "Number_of_Employees": 137,
+            "Address": {
+                "Street": "686 Technology Drive",
+                "City": "San Francisco",
+                "State": "IL",
+                "Postal_Code": "78138",
+                "Country": "Germany"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2050",
+                "Name": "Healthcare Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 405085,
+                "Close_Date": "2025-02-07T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2051",
+                "Name": "Healthcare Expansion Project 2",
+                "Stage": "Closed Won",
+                "Amount": 208274,
+                "Close_Date": "2024-11-25T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2052",
+                "Name": "Healthcare Expansion Project 3",
+                "Stage": "Closed Won",
+                "Amount": 76878,
+                "Close_Date": "2025-10-27T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2053",
+                "Name": "Healthcare Expansion Project 4",
+                "Stage": "Proposal Sent",
+                "Amount": 258039,
+                "Close_Date": "2025-09-30T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2054",
+                "Name": "Healthcare Expansion Project 5",
+                "Stage": "Closed Won",
+                "Amount": 130771,
+                "Close_Date": "2025-11-13T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3050",
+                "Subject": "Issue 1: Billing Error",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-10-09T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3051",
+                "Subject": "Issue 2: Service Outage",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2024-08-11T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3052",
+                "Subject": "Issue 3: Bug Report",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2024-09-08T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3053",
+                "Subject": "Issue 4: Billing Error",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2025-03-01T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4050",
+                "Type": "Email",
+                "Date": "2024-07-26T00:00:00Z",
+                "From": "account.manager@companyk.com",
+                "To": "support@companyk.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4051",
+                "Type": "Call",
+                "Date": "2025-03-04T00:00:00Z",
+                "From": "account.manager@companyk.com",
+                "To": "support@companyk.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4052",
+                "Type": "Call",
+                "Date": "2025-12-17T00:00:00Z",
+                "From": "account.manager@companyk.com",
+                "To": "support@companyk.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100011",
+            "Client_Name": "Company L",
+            "Industry": "Transportation",
+            "Account_Manager": "Michael Brown",
+            "Created_Date": "2020-01-11T00:00:00Z",
+            "Last_Modified": "2020-02-29T00:00:00Z",
+            "Annual_Revenue": 131576433,
+            "Number_of_Employees": 3308,
+            "Address": {
+                "Street": "658 Business Drive",
+                "City": "Miami",
+                "State": "FL",
+                "Postal_Code": "36208",
+                "Country": "Australia"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2055",
+                "Name": "Transportation Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 350033,
+                "Close_Date": "2025-02-12T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2056",
+                "Name": "Transportation Expansion Project 2",
+                "Stage": "Proposal Sent",
+                "Amount": 399828,
+                "Close_Date": "2024-06-05T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2057",
+                "Name": "Transportation Expansion Project 3",
+                "Stage": "Negotiation",
+                "Amount": 71455,
+                "Close_Date": "2024-09-27T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2058",
+                "Name": "Transportation Expansion Project 4",
+                "Stage": "Closed Won",
+                "Amount": 377436,
+                "Close_Date": "2025-09-15T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2059",
+                "Name": "Transportation Expansion Project 5",
+                "Stage": "Negotiation",
+                "Amount": 478493,
+                "Close_Date": "2025-11-01T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3055",
+                "Subject": "Issue 1: Bug Report",
+                "Status": "Open",
+                "Priority": "High",
+                "Created_Date": "2025-04-13T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3056",
+                "Subject": "Issue 2: Billing Error",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2025-12-07T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4055",
+                "Type": "Call",
+                "Date": "2025-05-29T00:00:00Z",
+                "From": "account.manager@companyl.com",
+                "To": "support@companyl.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4056",
+                "Type": "Call",
+                "Date": "2025-09-24T00:00:00Z",
+                "From": "account.manager@companyl.com",
+                "To": "support@companyl.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4057",
+                "Type": "Meeting",
+                "Date": "2025-07-03T00:00:00Z",
+                "From": "account.manager@companyl.com",
+                "To": "support@companyl.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4058",
+                "Type": "Email",
+                "Date": "2025-06-03T00:00:00Z",
+                "From": "account.manager@companyl.com",
+                "To": "support@companyl.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100012",
+            "Client_Name": "Company M",
+            "Industry": "Healthcare",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2022-07-07T00:00:00Z",
+            "Last_Modified": "2024-05-01T00:00:00Z",
+            "Annual_Revenue": 134765847,
+            "Number_of_Employees": 3548,
+            "Address": {
+                "Street": "407 Innovation Drive",
+                "City": "Chicago",
+                "State": "MA",
+                "Postal_Code": "73961",
+                "Country": "Australia"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2060",
+                "Name": "Healthcare Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 283936,
+                "Close_Date": "2024-12-21T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2061",
+                "Name": "Healthcare Expansion Project 2",
+                "Stage": "Closed Lost",
+                "Amount": 215575,
+                "Close_Date": "2024-07-09T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2062",
+                "Name": "Healthcare Expansion Project 3",
+                "Stage": "Proposal Sent",
+                "Amount": 188596,
+                "Close_Date": "2025-08-05T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2063",
+                "Name": "Healthcare Expansion Project 4",
+                "Stage": "Closed Won",
+                "Amount": 284271,
+                "Close_Date": "2025-11-30T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2064",
+                "Name": "Healthcare Expansion Project 5",
+                "Stage": "Negotiation",
+                "Amount": 355461,
+                "Close_Date": "2025-02-11T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3060",
+                "Subject": "Issue 1: Billing Error",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2025-02-25T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3061",
+                "Subject": "Issue 2: Bug Report",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2025-07-30T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4060",
+                "Type": "Meeting",
+                "Date": "2025-08-06T00:00:00Z",
+                "From": "account.manager@companym.com",
+                "To": "support@companym.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4061",
+                "Type": "Meeting",
+                "Date": "2025-08-15T00:00:00Z",
+                "From": "account.manager@companym.com",
+                "To": "support@companym.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4062",
+                "Type": "Meeting",
+                "Date": "2025-09-30T00:00:00Z",
+                "From": "account.manager@companym.com",
+                "To": "support@companym.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100013",
+            "Client_Name": "Company N",
+            "Industry": "Energy",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2021-02-10T00:00:00Z",
+            "Last_Modified": "2023-11-12T00:00:00Z",
+            "Annual_Revenue": 67057702,
+            "Number_of_Employees": 1279,
+            "Address": {
+                "Street": "879 Technology Drive",
+                "City": "Miami",
+                "State": "NY",
+                "Postal_Code": "98802",
+                "Country": "UK"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2065",
+                "Name": "Energy Expansion Project 1",
+                "Stage": "Negotiation",
+                "Amount": 339899,
+                "Close_Date": "2024-12-27T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2066",
+                "Name": "Energy Expansion Project 2",
+                "Stage": "Closed Lost",
+                "Amount": 463107,
+                "Close_Date": "2025-02-02T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2067",
+                "Name": "Energy Expansion Project 3",
+                "Stage": "Closed Won",
+                "Amount": 280813,
+                "Close_Date": "2024-12-17T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2068",
+                "Name": "Energy Expansion Project 4",
+                "Stage": "Negotiation",
+                "Amount": 156019,
+                "Close_Date": "2025-03-13T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2069",
+                "Name": "Energy Expansion Project 5",
+                "Stage": "Negotiation",
+                "Amount": 469936,
+                "Close_Date": "2025-07-17T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3065",
+                "Subject": "Issue 1: Service Outage",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2024-12-29T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3066",
+                "Subject": "Issue 2: Billing Error",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2025-10-04T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3067",
+                "Subject": "Issue 3: Feature Request",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2025-03-07T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3068",
+                "Subject": "Issue 4: Feature Request",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2024-09-22T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4065",
+                "Type": "Email",
+                "Date": "2025-04-21T00:00:00Z",
+                "From": "account.manager@companyn.com",
+                "To": "support@companyn.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4066",
+                "Type": "Call",
+                "Date": "2025-09-20T00:00:00Z",
+                "From": "account.manager@companyn.com",
+                "To": "support@companyn.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4067",
+                "Type": "Meeting",
+                "Date": "2025-10-27T00:00:00Z",
+                "From": "account.manager@companyn.com",
+                "To": "support@companyn.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4068",
+                "Type": "Email",
+                "Date": "2025-05-16T00:00:00Z",
+                "From": "account.manager@companyn.com",
+                "To": "support@companyn.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100014",
+            "Client_Name": "Company O",
+            "Industry": "Healthcare",
+            "Account_Manager": "Michael Brown",
+            "Created_Date": "2020-11-13T00:00:00Z",
+            "Last_Modified": "2023-08-03T00:00:00Z",
+            "Annual_Revenue": 34415849,
+            "Number_of_Employees": 4973,
+            "Address": {
+                "Street": "480 Business Drive",
+                "City": "San Francisco",
+                "State": "NY",
+                "Postal_Code": "54515",
+                "Country": "Germany"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2070",
+                "Name": "Healthcare Expansion Project 1",
+                "Stage": "Proposal Sent",
+                "Amount": 311463,
+                "Close_Date": "2025-04-15T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2071",
+                "Name": "Healthcare Expansion Project 2",
+                "Stage": "Closed Lost",
+                "Amount": 65597,
+                "Close_Date": "2025-12-18T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2072",
+                "Name": "Healthcare Expansion Project 3",
+                "Stage": "Negotiation",
+                "Amount": 312486,
+                "Close_Date": "2024-12-24T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2073",
+                "Name": "Healthcare Expansion Project 4",
+                "Stage": "Closed Won",
+                "Amount": 111011,
+                "Close_Date": "2024-08-02T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2074",
+                "Name": "Healthcare Expansion Project 5",
+                "Stage": "Proposal Sent",
+                "Amount": 241695,
+                "Close_Date": "2025-05-23T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3070",
+                "Subject": "Issue 1: Billing Error",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-06-13T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3071",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2025-11-29T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3072",
+                "Subject": "Issue 3: Service Outage",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-07-16T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3073",
+                "Subject": "Issue 4: Feature Request",
+                "Status": "Open",
+                "Priority": "Low",
+                "Created_Date": "2024-10-07T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4070",
+                "Type": "Meeting",
+                "Date": "2025-12-18T00:00:00Z",
+                "From": "account.manager@companyo.com",
+                "To": "support@companyo.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4071",
+                "Type": "Email",
+                "Date": "2025-02-13T00:00:00Z",
+                "From": "account.manager@companyo.com",
+                "To": "support@companyo.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4072",
+                "Type": "Meeting",
+                "Date": "2024-10-03T00:00:00Z",
+                "From": "account.manager@companyo.com",
+                "To": "support@companyo.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4073",
+                "Type": "Call",
+                "Date": "2024-08-10T00:00:00Z",
+                "From": "account.manager@companyo.com",
+                "To": "support@companyo.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4074",
+                "Type": "Call",
+                "Date": "2024-10-09T00:00:00Z",
+                "From": "account.manager@companyo.com",
+                "To": "support@companyo.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100015",
+            "Client_Name": "Company P",
+            "Industry": "Manufacturing",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2024-01-20T00:00:00Z",
+            "Last_Modified": "2024-01-26T00:00:00Z",
+            "Annual_Revenue": 19752692,
+            "Number_of_Employees": 4544,
+            "Address": {
+                "Street": "843 Business Drive",
+                "City": "Seattle",
+                "State": "FL",
+                "Postal_Code": "52241",
+                "Country": "USA"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2075",
+                "Name": "Manufacturing Expansion Project 1",
+                "Stage": "Closed Won",
+                "Amount": 132826,
+                "Close_Date": "2025-04-10T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2076",
+                "Name": "Manufacturing Expansion Project 2",
+                "Stage": "Negotiation",
+                "Amount": 322950,
+                "Close_Date": "2024-12-25T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2077",
+                "Name": "Manufacturing Expansion Project 3",
+                "Stage": "Closed Lost",
+                "Amount": 107788,
+                "Close_Date": "2025-05-02T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2078",
+                "Name": "Manufacturing Expansion Project 4",
+                "Stage": "Negotiation",
+                "Amount": 422000,
+                "Close_Date": "2025-05-06T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2079",
+                "Name": "Manufacturing Expansion Project 5",
+                "Stage": "Closed Lost",
+                "Amount": 391647,
+                "Close_Date": "2025-09-17T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3075",
+                "Subject": "Issue 1: Service Outage",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2025-06-21T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3076",
+                "Subject": "Issue 2: Billing Error",
+                "Status": "Open",
+                "Priority": "High",
+                "Created_Date": "2025-09-07T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4075",
+                "Type": "Call",
+                "Date": "2025-05-29T00:00:00Z",
+                "From": "account.manager@companyp.com",
+                "To": "support@companyp.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4076",
+                "Type": "Call",
+                "Date": "2025-10-11T00:00:00Z",
+                "From": "account.manager@companyp.com",
+                "To": "support@companyp.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4077",
+                "Type": "Meeting",
+                "Date": "2025-06-10T00:00:00Z",
+                "From": "account.manager@companyp.com",
+                "To": "support@companyp.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100016",
+            "Client_Name": "Company Q",
+            "Industry": "Manufacturing",
+            "Account_Manager": "Jane Smith",
+            "Created_Date": "2021-01-07T00:00:00Z",
+            "Last_Modified": "2021-07-14T00:00:00Z",
+            "Annual_Revenue": 52805803,
+            "Number_of_Employees": 723,
+            "Address": {
+                "Street": "371 Technology Drive",
+                "City": "New York",
+                "State": "TX",
+                "Postal_Code": "22553",
+                "Country": "UK"
+            },
+            "Status": "Inactive"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2080",
+                "Name": "Manufacturing Expansion Project 1",
+                "Stage": "Proposal Sent",
+                "Amount": 305584,
+                "Close_Date": "2025-10-16T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2081",
+                "Name": "Manufacturing Expansion Project 2",
+                "Stage": "Proposal Sent",
+                "Amount": 373197,
+                "Close_Date": "2025-09-13T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2082",
+                "Name": "Manufacturing Expansion Project 3",
+                "Stage": "Proposal Sent",
+                "Amount": 185081,
+                "Close_Date": "2025-09-20T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2083",
+                "Name": "Manufacturing Expansion Project 4",
+                "Stage": "Proposal Sent",
+                "Amount": 59679,
+                "Close_Date": "2025-07-21T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3080",
+                "Subject": "Issue 1: Feature Request",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2025-03-09T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3081",
+                "Subject": "Issue 2: Bug Report",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-12-07T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3082",
+                "Subject": "Issue 3: Feature Request",
+                "Status": "Closed",
+                "Priority": "Medium",
+                "Created_Date": "2025-12-26T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3083",
+                "Subject": "Issue 4: Feature Request",
+                "Status": "Closed",
+                "Priority": "High",
+                "Created_Date": "2025-12-26T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3084",
+                "Subject": "Issue 5: Billing Error",
+                "Status": "In Progress",
+                "Priority": "Medium",
+                "Created_Date": "2025-02-04T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4080",
+                "Type": "Meeting",
+                "Date": "2024-08-26T00:00:00Z",
+                "From": "account.manager@companyq.com",
+                "To": "support@companyq.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4081",
+                "Type": "Meeting",
+                "Date": "2024-09-13T00:00:00Z",
+                "From": "account.manager@companyq.com",
+                "To": "support@companyq.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4082",
+                "Type": "Email",
+                "Date": "2025-12-28T00:00:00Z",
+                "From": "account.manager@companyq.com",
+                "To": "support@companyq.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4083",
+                "Type": "Meeting",
+                "Date": "2025-12-10T00:00:00Z",
+                "From": "account.manager@companyq.com",
+                "To": "support@companyq.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4084",
+                "Type": "Meeting",
+                "Date": "2025-11-10T00:00:00Z",
+                "From": "account.manager@companyq.com",
+                "To": "support@companyq.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100017",
+            "Client_Name": "Company R",
+            "Industry": "Education",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2020-01-28T00:00:00Z",
+            "Last_Modified": "2022-10-11T00:00:00Z",
+            "Annual_Revenue": 65629305,
+            "Number_of_Employees": 2031,
+            "Address": {
+                "Street": "202 Innovation Drive",
+                "City": "Houston",
+                "State": "FL",
+                "Postal_Code": "58010",
+                "Country": "Germany"
+            },
+            "Status": "Pending"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2085",
+                "Name": "Education Expansion Project 1",
+                "Stage": "Negotiation",
+                "Amount": 275835,
+                "Close_Date": "2024-07-09T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2086",
+                "Name": "Education Expansion Project 2",
+                "Stage": "Negotiation",
+                "Amount": 53655,
+                "Close_Date": "2024-06-08T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2087",
+                "Name": "Education Expansion Project 3",
+                "Stage": "Negotiation",
+                "Amount": 212615,
+                "Close_Date": "2025-02-13T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3085",
+                "Subject": "Issue 1: Billing Error",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2025-10-10T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3086",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2025-02-28T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3087",
+                "Subject": "Issue 3: Billing Error",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2025-05-16T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3088",
+                "Subject": "Issue 4: Service Outage",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2025-01-08T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4085",
+                "Type": "Meeting",
+                "Date": "2025-11-01T00:00:00Z",
+                "From": "account.manager@companyr.com",
+                "To": "support@companyr.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4086",
+                "Type": "Call",
+                "Date": "2025-01-01T00:00:00Z",
+                "From": "account.manager@companyr.com",
+                "To": "support@companyr.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4087",
+                "Type": "Email",
+                "Date": "2025-07-09T00:00:00Z",
+                "From": "account.manager@companyr.com",
+                "To": "support@companyr.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4088",
+                "Type": "Meeting",
+                "Date": "2025-02-01T00:00:00Z",
+                "From": "account.manager@companyr.com",
+                "To": "support@companyr.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4089",
+                "Type": "Call",
+                "Date": "2025-08-29T00:00:00Z",
+                "From": "account.manager@companyr.com",
+                "To": "support@companyr.com",
+                "Subject": "Quarterly Business Review",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4090",
+                "Type": "Call",
+                "Date": "2024-11-26T00:00:00Z",
+                "From": "account.manager@companyr.com",
+                "To": "support@companyr.com",
+                "Subject": "Technical Issue Follow-up",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100018",
+            "Client_Name": "Company S",
+            "Industry": "Manufacturing",
+            "Account_Manager": "John Doe",
+            "Created_Date": "2022-12-31T00:00:00Z",
+            "Last_Modified": "2024-06-03T00:00:00Z",
+            "Annual_Revenue": 106718147,
+            "Number_of_Employees": 319,
+            "Address": {
+                "Street": "766 Technology Drive",
+                "City": "Los Angeles",
+                "State": "NY",
+                "Postal_Code": "79031",
+                "Country": "USA"
+            },
+            "Status": "Pending"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2090",
+                "Name": "Manufacturing Expansion Project 1",
+                "Stage": "Proposal Sent",
+                "Amount": 272286,
+                "Close_Date": "2024-10-04T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3090",
+                "Subject": "Issue 1: Bug Report",
+                "Status": "In Progress",
+                "Priority": "Medium",
+                "Created_Date": "2025-02-18T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3091",
+                "Subject": "Issue 2: Feature Request",
+                "Status": "Closed",
+                "Priority": "High",
+                "Created_Date": "2025-02-04T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3092",
+                "Subject": "Issue 3: Service Outage",
+                "Status": "Closed",
+                "Priority": "Low",
+                "Created_Date": "2024-10-26T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3093",
+                "Subject": "Issue 4: Service Outage",
+                "Status": "In Progress",
+                "Priority": "Medium",
+                "Created_Date": "2024-11-05T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4090",
+                "Type": "Call",
+                "Date": "2025-04-02T00:00:00Z",
+                "From": "account.manager@companys.com",
+                "To": "support@companys.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4091",
+                "Type": "Call",
+                "Date": "2025-12-17T00:00:00Z",
+                "From": "account.manager@companys.com",
+                "To": "support@companys.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    },
+    {
+        "ClientInformation": {
+            "Client_ID": "C100019",
+            "Client_Name": "Company T",
+            "Industry": "Healthcare",
+            "Account_Manager": "Emily Johnson",
+            "Created_Date": "2020-01-26T00:00:00Z",
+            "Last_Modified": "2021-08-27T00:00:00Z",
+            "Annual_Revenue": 56960732,
+            "Number_of_Employees": 3813,
+            "Address": {
+                "Street": "570 Technology Drive",
+                "City": "Chicago",
+                "State": "MA",
+                "Postal_Code": "57615",
+                "Country": "USA"
+            },
+            "Status": "Active"
+        },
+        "Opportunities": [
+            {
+                "Opportunity_ID": "O2095",
+                "Name": "Healthcare Expansion Project 1",
+                "Stage": "Closed Lost",
+                "Amount": 355319,
+                "Close_Date": "2025-04-19T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2096",
+                "Name": "Healthcare Expansion Project 2",
+                "Stage": "Negotiation",
+                "Amount": 148971,
+                "Close_Date": "2024-08-13T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2097",
+                "Name": "Healthcare Expansion Project 3",
+                "Stage": "Proposal Sent",
+                "Amount": 132238,
+                "Close_Date": "2025-10-12T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2098",
+                "Name": "Healthcare Expansion Project 4",
+                "Stage": "Negotiation",
+                "Amount": 144796,
+                "Close_Date": "2025-09-16T00:00:00Z"
+            },
+            {
+                "Opportunity_ID": "O2099",
+                "Name": "Healthcare Expansion Project 5",
+                "Stage": "Closed Won",
+                "Amount": 477493,
+                "Close_Date": "2025-09-29T00:00:00Z"
+            }
+        ],
+        "Cases": [
+            {
+                "Case_ID": "CS3095",
+                "Subject": "Issue 1: Feature Request",
+                "Status": "In Progress",
+                "Priority": "High",
+                "Created_Date": "2024-10-21T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3096",
+                "Subject": "Issue 2: Billing Error",
+                "Status": "In Progress",
+                "Priority": "Low",
+                "Created_Date": "2024-06-19T00:00:00Z"
+            },
+            {
+                "Case_ID": "CS3097",
+                "Subject": "Issue 3: Feature Request",
+                "Status": "Open",
+                "Priority": "Medium",
+                "Created_Date": "2025-03-23T00:00:00Z"
+            }
+        ],
+        "Communications": [
+            {
+                "Communication_ID": "COM4095",
+                "Type": "Email",
+                "Date": "2025-07-28T00:00:00Z",
+                "From": "account.manager@companyt.com",
+                "To": "support@companyt.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4096",
+                "Type": "Call",
+                "Date": "2025-07-15T00:00:00Z",
+                "From": "account.manager@companyt.com",
+                "To": "support@companyt.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4097",
+                "Type": "Meeting",
+                "Date": "2024-11-10T00:00:00Z",
+                "From": "account.manager@companyt.com",
+                "To": "support@companyt.com",
+                "Subject": "New Project Proposal",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4098",
+                "Type": "Call",
+                "Date": "2025-10-21T00:00:00Z",
+                "From": "account.manager@companyt.com",
+                "To": "support@companyt.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            },
+            {
+                "Communication_ID": "COM4099",
+                "Type": "Call",
+                "Date": "2025-05-02T00:00:00Z",
+                "From": "account.manager@companyt.com",
+                "To": "support@companyt.com",
+                "Subject": "Invoice Inquiry",
+                "Content": "Dear Team,\n\nPlease review the attached document.\n\nBest regards,\nAccount Manager"
+            }
+        ]
+    }
+]
